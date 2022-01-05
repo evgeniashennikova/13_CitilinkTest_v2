@@ -1,5 +1,6 @@
 package ru_citilink.tests;
 
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
@@ -12,6 +13,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.WebDriverConditions.url;
 import static io.qameta.allure.Allure.step;
 
+@Owner("Евгения Щенникова")
 public class CitilinkTests extends TestBase {
 
     @Test
@@ -77,8 +79,8 @@ public class CitilinkTests extends TestBase {
     void checkAddressMarketTest() {
 
         step("Открыть раздел 'Магазины'", () -> {
-                $x("//*[contains(text(),'Магазины')]").click();
-                $(byText("Все магазины России")).click();
+            $x("//*[contains(text(),'Магазины')]").click();
+            $(byText("Все магазины России")).click();
         });
 
         step("Проверить, что в списке есть Магазин ТЦ 'Азовский'", () -> {
