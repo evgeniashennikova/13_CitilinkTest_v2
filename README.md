@@ -32,11 +32,11 @@ ________
 🔴 Указать необходимые параметры.  
 🔴 Нажать на кнопку **"Собрать"**.  
 
-<img src="src/test/resources/screenshots/Jenkins parameters.jpg" width="1000" height="400"/>  
+<img src="src/test/resources/screenshots/Jenkins parameters.jpg" width="1000" height="700"/>  
 
 🔴 Для формирования отчета о прохождении тестов в Allure Report необходимо нажать на ссылку/иконку **"Allure Report"**.  
 
-<img src="src/test/resources/screenshots/allure report1.jpg" width="1000" height="300"/>  
+<img src="src/test/resources/screenshots/allure report1.jpg" width="1000" height="600"/>  
 
 ### <img src="src/test/resources/logo/Selenoid.svg" width="40" height="40"/> Видео прохождения тестов в Selenoid  
 
@@ -49,33 +49,43 @@ ________
 <details>
   <summary>Подробнее</summary>  
 
+  
 **1.** Страница «Overview».
 
-<img src="src/test/resources/screenshots/allure report2.jpg" width="1000" height="200"/>  
+<img src="src/test/resources/screenshots/allure report2.jpg" width="800" height="400"/>  
+  
 
+    
+  
 **2.** Страница «Categories».  
 
 Данная страница предоставляет информацио о распределении дефектов по их видам.
 
-<img src="src/test/resources/screenshots/allure report3.jpg" width="1000" height="200"/>  
+<img src="src/test/resources/screenshots/allure report3.jpg" width="800" height="400"/>  
 
+    
+  
 **3.** Страница «Suites».  
 
 На данной странице представляется распределение выполнявшихся тестов по тестовым наборам или классам, в которых находятся тестовые методы.
 
-<img src="src/test/resources/screenshots/allure report4.jpg" width="1000" height="200"/>  
+<img src="src/test/resources/screenshots/allure report4.jpg" width="800" height="400"/>  
 
+    
+  
 **4.** Страница «Graphs».
 
 На этой странице можно получить информацию о тестовом прогоне в графическом виде: статус прогона, распределение тестов по их критичности, длительности прохождения, перезапусках, категориях дефектах.  
 
-<img src="src/test/resources/screenshots/allure report5.jpg" width="1000" height="200"/>  
+<img src="src/test/resources/screenshots/allure report5.jpg" width="800" height="400"/>  
 
+    
+  
 **5.** Страница «Timeline».  
 
 Данная страница визуализирует временные рамки прохождения каждого теста.  
 
-<img src="src/test/resources/screenshots/allure report6.jpg" width="1000" height="200"/>  
+<img src="src/test/resources/screenshots/allure report6.jpg" width="800" height="400"/>  
 
 </details>  
 
@@ -84,28 +94,35 @@ ________
 <details>
   <summary>Подробнее</summary> 
 
-📎 Dashboards  
+  
+📎 **Dashboards.**  
 
-<img src="src/test/resources/screenshots/testops_dashboards.jpg" width="1000" height="200"/>  
+<img src="src/test/resources/screenshots/testops_dashboards.jpg" width="800" height="400"/>  
+  
+  
 
-📎 Test cases  
+📎 **Test cases.**  
 
-<img src="src/test/resources/screenshots/testops_testcases.jpg" width="1000" height="200"/>  
+<img src="src/test/resources/screenshots/testops_testcases.jpg" width="800" height="400"/>  
+  
+  
 
-📎 Launches. Запуски тестов.  
+📎 **Launches. Запуски тестов.**  
 
-<img src="src/test/resources/screenshots/launches.jpg" width="1000" height="200"/>  
+<img src="src/test/resources/screenshots/launches.jpg" width="800" height="400"/>  
+  
+  
 
 </details>  
 
 ### <img src="src/test/resources/logo/Jira.svg" width="30" height="30"/> Интеграция тестов c таск-трекер системой [Jira](https://jira.autotests.cloud/browse/HOMEWORK-287)  
 
-<img src="src/test/resources/screenshots/jiratask.jpg" width="1000" height="200"/>  
+<img src="src/test/resources/screenshots/jiratask.jpg" width="1000" height="500"/>  
  
 
 ### <img src="src/test/resources/logo/Telegram.svg" width="30" height="30"/> Уведомления о прохождении тестов в Telegram  
 
-<img src="src/test/resources/screenshots/telegram_bot.jpg" width="500" height="400"/>  
+<img src="src/test/resources/screenshots/telegram_bot.jpg" width="500" height="500"/>  
 
 
 
