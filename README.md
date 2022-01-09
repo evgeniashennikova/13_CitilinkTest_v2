@@ -1,18 +1,7 @@
 ## Проект по разработке автотестов для интернет-магазина [Ситилинк](https://www.citilink.ru/ "Ситилинк").
 ### Технологический стек
 ________
-<img src="src/test/resources/logo/Java.svg" width="50" height="50"/>
-<img src="src/test/resources/logo/Intelij_IDEA.svg" width="50" height="50"/>
-<img src="src/test/resources/logo/Gradle.svg" width="50" height="50"/>
-<img src="src/test/resources/logo/JUnit5.svg" width="50" height="50"/>
-<img src="src/test/resources/logo/Selenide.svg" width="50" height="50"/>
-<img src="src/test/resources/logo/GitHub.svg" width="50" height="50"/>
-<img src="src/test/resources/logo/Jenkins.svg" width="50" height="50"/>
-<img src="src/test/resources/logo/Selenoid.svg" width="50" height="50"/>
-<img src="src/test/resources/logo/Allure_Report.svg" width="50" height="50"/>
-<img src="src/test/resources/logo/Allure_TestOps.svg" width="50" height="50"/>
-<img src="src/test/resources/logo/Jira.svg" width="50" height="50"/>
-<img src="src/test/resources/logo/Telegram.svg" width="50" height="50"/>
+<img src="src/test/resources/logo/Java.svg" width="50" height="50"/> <img src="src/test/resources/logo/Intelij_IDEA.svg" width="50" height="50"/> <img src="src/test/resources/logo/Gradle.svg" width="50" height="50"/> <img src="src/test/resources/logo/JUnit5.svg" width="50" height="50"/> <img src="src/test/resources/logo/Selenide.svg" width="50" height="50"/> <img src="src/test/resources/logo/GitHub.svg" width="50" height="50"/> <img src="src/test/resources/logo/Jenkins.svg" width="50" height="50"/> <img src="src/test/resources/logo/Selenoid.svg" width="50" height="50"/> <img src="src/test/resources/logo/Allure_Report.svg" width="50" height="50"/> <img src="src/test/resources/logo/Allure_TestOps.svg" width="50" height="50"/> <img src="src/test/resources/logo/Jira.svg" width="50" height="50"/> <img src="src/test/resources/logo/Telegram.svg" width="50" height="50"/>
 
 -----
 * Автотесты написаны на ``Java`` с использованием фреймворка ``Selenide``.
