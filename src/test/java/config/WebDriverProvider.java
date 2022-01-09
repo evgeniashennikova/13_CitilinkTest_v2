@@ -2,6 +2,7 @@ package config;
 
 import com.codeborne.selenide.Configuration;
 import org.aeonbits.owner.ConfigFactory;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class WebDriverProvider {
@@ -14,6 +15,14 @@ public class WebDriverProvider {
         Configuration.browserSize = webConfig.browserSize();
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
+
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--no-sandbox");
+        chromeOptions.addArguments("--enable-automation");
+        chromeOptions.addArguments("--disable-popup-blocking");
+        chromeOptions.addArguments("--disable-notifications");
+        chromeOptions.addArguments("--disable-gpu");
+        chromeOptions.addArguments("--ignore-certifcate-errors");
 
         if (System.getProperty("typeEnv").equals("remote")) {
             capabilities.setCapability("enableVNC", true);

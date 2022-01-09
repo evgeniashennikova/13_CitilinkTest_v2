@@ -1,6 +1,8 @@
 package ru_citilink.tests;
 
 import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
@@ -18,6 +20,7 @@ public class CitilinkTests extends TestBase {
 
     @Test
     @DisplayName("Проверка текста заголовка на главной странице")
+    @Severity(SeverityLevel.CRITICAL)
     void titleTextTest() {
 
         step("Заголовок страницы имеет текст " +
@@ -32,6 +35,7 @@ public class CitilinkTests extends TestBase {
     @Disabled
     @Test
     @DisplayName("Проверка логотипа")
+    @Severity(SeverityLevel.CRITICAL)
     void checkLogoTest() {
 
         step("Проверить наличие логотипа на главной странице", () ->
@@ -47,6 +51,7 @@ public class CitilinkTests extends TestBase {
 
     @Test
     @DisplayName("Проверка функции поиска на сайте")
+    @Severity(SeverityLevel.BLOCKER)
     void searchTest() {
 
         step("Ввести в поле для поиска запрос", () ->
@@ -62,6 +67,7 @@ public class CitilinkTests extends TestBase {
 
     @Test
     @DisplayName("Открыть раздел 'Смартфоны и гаджеты'")
+    @Severity(SeverityLevel.CRITICAL)
     void goToSectionTest() {
 
         step("Выбрать в Каталоге товаров раздел 'Смартфоны и гаджеты'", () -> {
@@ -75,7 +81,8 @@ public class CitilinkTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Проверка наличия адреса магазина'")
+    @DisplayName("Проверка наличия адреса магазина")
+    @Severity(SeverityLevel.NORMAL)
     void checkAddressMarketTest() {
 
         step("Открыть раздел 'Магазины'", () -> {
@@ -92,6 +99,7 @@ public class CitilinkTests extends TestBase {
 
     @Test
     @DisplayName("При клике на логотип происходит переход на главную страницу сайта")
+    @Severity(SeverityLevel.CRITICAL)
     void returnToMainPageTest() {
 
         step("Перейти в раздел Форум", () -> {
@@ -109,6 +117,7 @@ public class CitilinkTests extends TestBase {
 
     @Test
     @DisplayName("Проверка открытия формы обратной связи")
+    @Severity(SeverityLevel.CRITICAL)
     void questionFormTest() {
 
         step("Нажать на кнопку 'Обратная связь'", () ->
