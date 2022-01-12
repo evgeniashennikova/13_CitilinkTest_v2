@@ -22,7 +22,7 @@ public class WebDriverProvider {
         chromeOptions.addArguments("--disable-popup-blocking");
         chromeOptions.addArguments("--disable-notifications");
         chromeOptions.addArguments("--disable-gpu");
-        chromeOptions.addArguments("--ignore-certifcate-errors");
+        chromeOptions.addArguments("--ignore-certificate-errors");
 
         if (System.getProperty("typeEnv").equals("remote")) {
             capabilities.setCapability("enableVNC", true);
